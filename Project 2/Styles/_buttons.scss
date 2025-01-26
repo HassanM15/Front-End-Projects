@@ -1,0 +1,43 @@
+.blue-button {
+    padding: $padding-16 $padding-32;
+    border-radius: $radius-100;
+    background-color: $purple;
+    color: $button-white;
+
+    &:hover {
+        background-color: $button-white;
+        color: $purple;
+    }
+}
+
+.wt-button {
+    background-color: $white-pure;
+    border-radius: $radius-20;
+    box-shadow: 0rem 1rem 3rem 0rem #2228312b;
+    padding: $padding-16 $padding-32;
+    color: $pink-button;
+}
+
+.bordered-wt-button {
+    padding: $padding-16 $padding-32;
+    color: $nav-solid-bk;
+    border: 1px solid $button-white;
+    border-radius: $radius-100;
+
+    &:hover {
+        .icon {
+            color: $nav-solid-bk
+        }
+
+        color: $purple;
+    }
+}
+
+.ordinary-button {
+    padding: $padding-16 $padding-32;
+    color: $nav-solid-bk;
+
+    &:hover {
+        color: $purple;
+    }
+}

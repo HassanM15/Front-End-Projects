@@ -1,0 +1,23 @@
+.shadow-one {
+  border: none;
+  box-shadow: 0rem 1rem 3rem 0rem #2228312b;
+}
+
+.left-side {
+  @media (min-width: 992px) {
+      margin-left: 0;
+      padding-left: 0;
+  }
+}
+
+.right-side {
+  @media (min-width: 992px) {
+      margin-right: 0;
+      padding-right: 0;
+  }
+}
+
+.bordered-one {
+  border: 1px solid #1918251A;
+  border-radius: $radius-32;
+}
